@@ -3,7 +3,7 @@ import Card from "./Card";
 import { postsData } from "../data/posts";
 
 const CardGrid = () => {
-  const [posts, setPosts] = useState(postsData.results);
+  const [posts] = useState(postsData.results);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
